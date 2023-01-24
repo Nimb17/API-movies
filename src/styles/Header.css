@@ -1,0 +1,27 @@
+.navHeader{
+    border-radius: 50px;
+    border-radius: 30px;
+    border-radius: 35px;
+    border-radius: 35px;
+    border-radius: 21px;
+    background: linear-gradient(145deg, #1f1d5744, #13123e34);
+   
+    max-width: 1500px;
+    height: 100px;
+    margin: 0 auto;    
+    border-radius: 30px;
+    margin-top: 40px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color:#383838;
+    font-size: large;
+    z-index: 4;
+    
+}
+
+.navHeader img:hover{
+    cursor: pointer;
+    transform: scale(1.1);    
+}

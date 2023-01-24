@@ -1,0 +1,10 @@
+.trendMovies{
+    display: flex;    
+    max-width: 400px;
+}
+
+.trendMovies img{
+    object-fit: cover;
+    border-radius: 15px;
+}
+
