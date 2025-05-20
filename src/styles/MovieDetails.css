@@ -6,7 +6,7 @@
   margin-top: 50px;
   margin-bottom: 200px;
   gap: 30px;
-  color: rgb(199, 189, 236); 
+  color: var(--text-color); 
 }
 
 .containerDetails__img{
@@ -34,12 +34,13 @@
 
   .container__trend2::-webkit-scrollbar {  
     height: 0.3em;
-    background-color: #f5f5f53e;
+    background-color: var(--text-color); /* Assuming text color is light on dark, dark on light */
+    opacity: 0.1; /* Making it a faint track */
     border-radius: 20px;
   }
   
   .container__trend2::-webkit-scrollbar-thumb {
-    background-color: #2e28e8;
+    background-color: var(--primary-color);
     border-radius: 20px;
   } 
   
