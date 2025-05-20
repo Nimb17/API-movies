@@ -4,7 +4,8 @@
     border-radius: 35px;
     border-radius: 35px;
     border-radius: 21px;
-    background: linear-gradient(145deg, #1f1d5744, #13123e34);
+    background-color: var(--background-color);
+    border-bottom: 2px solid var(--primary-color);
    
     max-width: 1500px;
     height: 100px;
@@ -15,7 +16,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    color:#383838;
+    color: var(--text-color);
     font-size: large;
     z-index: 4;
     

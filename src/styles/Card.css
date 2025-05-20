@@ -13,7 +13,7 @@
 }
 
 .card__title {
-  color: #c3c1fe;
+  color: var(--primary-color);
   font-size: 15px;
   font-weight: 500;
   padding: 20px 15px 10px 15px;
