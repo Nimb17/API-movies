@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
 
 :root {
-  --background-color: #121212;
+  --background-color: #333333;
   --text-color: #FFFFFF;
   --primary-color: #BB86FC;
   --secondary-color: #03DAC6;
@@ -9,7 +9,7 @@
 }
 
 body[data-theme="light"] {
-  --background-color: #FFFFFF;
+  --background-color: #E0E0E0;
   --text-color: #000000;
   --primary-color: #6200EE;
   --secondary-color: #03DAC6;
