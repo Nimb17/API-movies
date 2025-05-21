@@ -30,8 +30,19 @@ const ThemeToggle = () => {
     }
   }, []); // Empty dependency array means this runs once on mount
 
+  const buttonStyle = {
+    padding: '12px 18px',
+    fontSize: '16px',
+    backgroundColor: 'var(--accent-color)',
+    color: 'var(--background-color)',
+    border: '2px solid var(--text-color)',
+    borderRadius: '8px',
+    cursor: 'pointer',
+    margin: '10px', // Retained margin
+  };
+
   return (
-    <button onClick={toggleTheme} style={{ padding: '10px', margin: '10px' }}>
+    <button onClick={toggleTheme} style={buttonStyle}>
       Switch to {theme === 'dark' ? 'Light' : 'Dark'} Mode
     </button>
   );
