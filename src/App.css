@@ -1,4 +1,6 @@
 body{
     background: var(--background-color);
+    background-image: url('./assets/texture.svg');
+    background-repeat: repeat;
     padding: 0 15px;
 }
