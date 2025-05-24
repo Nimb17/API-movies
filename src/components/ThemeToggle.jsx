@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../styles/Header.css'; // Import the CSS file
 
 const ThemeToggle = () => {
   const [theme, setTheme] = useState('dark'); // Default to dark theme
@@ -30,19 +31,8 @@ const ThemeToggle = () => {
     }
   }, []); // Empty dependency array means this runs once on mount
 
-  const buttonStyle = {
-    padding: '12px 18px',
-    fontSize: '16px',
-    backgroundColor: 'var(--accent-color)',
-    color: 'var(--background-color)',
-    border: '2px solid var(--text-color)',
-    borderRadius: '8px',
-    cursor: 'pointer',
-    margin: '10px', // Retained margin
-  };
-
   return (
-    <button onClick={toggleTheme} style={buttonStyle}>
+    <button onClick={toggleTheme} className="theme-toggle-button">
       Switch to {theme === 'dark' ? 'Light' : 'Dark'} Mode
     </button>
   );
