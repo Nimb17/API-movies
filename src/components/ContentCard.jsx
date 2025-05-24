@@ -18,7 +18,7 @@ const ContentCard = () => {
   return (
     <div className="contentCard">
       <div className="contentCard__img" >
-        <h1 className="contentCard__heroTitle">API movies</h1>
+        <h1 className="contentCard__heroTitle">-API movies-</h1>
         <img src={portada} width="1500" alt="" />
       </div>
 
